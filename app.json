@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/classtype/classtype",
+    "pages/cart/cart",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor":"#eeeeee",
+    "navigationBarBackgroundColor": "#576b95",
+    "navigationBarTitleText": "微信商城",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/tab-home.png",
+      "selectedIconPath": "images/tab-home-current.png"
+    },
+    {
+      "pagePath": "pages/classtype/classtype",
+      "text": "分类",
+      "iconPath": "images/tab-cate.png",
+      "selectedIconPath": "images/tab-cate-current.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "images/tab-cart.png",
+      "selectedIconPath": "images/tab-cart-current.png"
+    },
+    {
+      "pagePath": "pages/login/login",
+      "text": "我的",
+      "iconPath": "images/tab-my.png",
+      "selectedIconPath": "images/tab-my-current.png"
+    }    
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

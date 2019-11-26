@@ -1,0 +1,98 @@
+/* pages/index/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rpx;
+  background-color:#576b95;
+}
+.container swiper{
+  width: 100%;
+  height: 370rpx;
+}
+swiper swiper-item{
+  width: 100%;
+}
+image{
+  width: 100%;
+  border-radius: 16rpx;
+}
+
+
+/* 菜单 */
+.nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  border-radius: 16rpx;
+  margin-top: 6rpx;
+  margin-bottom: 6rpx;
+}
+.nav .menu{
+  display: flex;
+  flex-direction: column;
+  width:25%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+.menu text{
+  font-size: 20rpx;
+  color: black;
+  margin-top: 10rpx;
+}
+.menu image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+/* 产品列表 */
+.hot{
+  display: flex;
+  justify-content: center;
+  background-color: #576b95;
+  color: white;  
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #576b95;
+}
+
+.wrap .product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 46%;
+  margin: 6rpx 10rpx;
+  background-color: grey;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}
+
+.product image{
+  width: 100%;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.info .name{
+  font-size: 24rpx;
+  color: white;
+}
+.info .price{
+  color: red;
+  font-size: 26rpx;
+}

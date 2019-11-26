@@ -1,0 +1,19 @@
+<!--pages/cart/cart.wxml-->
+<scroll-view scroll-y>
+  <view class="product" wx:for="{{productList}}" wx:key="{{index}}">
+  <image src="{{item.src}}" mode="widthFix"></image>
+    <view class="info">
+      <text>{{item.name}}</text>
+      <text class="price">￥{{item.price}}</text>
+    </view>
+    <checkbox-group id="{{item.id}}" bindchange="checkboxChange">
+      <checkbox value="{{item.id}}"></checkbox>
+    </checkbox-group>
+  </view>
+</scroll-view>
+
+<view class="bottom">
+  <button>
+    <text>去付款￥{{price}}</text>
+  </button>
+</view>
